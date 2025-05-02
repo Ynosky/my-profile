@@ -2,22 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Ryunosuke Sato's profile page. Keio University student passionate about travel, tech, and learning.">
+  <meta name="description" content="Ryunosuke Sato's profile page. Double Degree exchange student passionate about travel, tech, and learning.">
   <title>Sato Profile Page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:title" content="Sato Profile Page">
   <meta property="og:description" content="Ryunosuke Sato's web profile built with HTML and CSS.">
   <meta property="og:image" content="images/profile.jpeg">
   <meta property="og:site_name" content="Sato Profile">
+
+  <style>
+  .social-links a i {
+    font-size: 24px;
+    transition: color 0.3s ease;
+    color: #b2ebf2; /* very light blue */
+  }
+
+  .social-links a:hover i {
+    color: #1a237e; /* deep indigo */
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #b2ebf2; /* light blue */
+    color: #1a237e;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .btn:hover {
+    background-color: #1a237e; /* indigo */
+    color: white;
+    transform: translateY(-2px);
+  }
+  </style>
 </head>
 <body>
   <div class="container">
     <div class="card-white">
       <img src="images/profile.jpeg" alt="My Profile Picture" class="profile-img">
       <h1>Hello, I’m Ryunosuke Sato 👋</h1>
-      <p>I’m a student at Keio University, Faculty of Business and Commerce.</p>
+      <p>I came from Keio University in Tokyo, Japan</p>
       <p>I love traveling, discovering new cultures, and building cool things with code. 🌏</p>
       <a href="https://github.com/your-username" target="_blank" class="btn">Visit my GitHub</a>
     </div>
@@ -44,8 +76,26 @@
     <div class="card-white">
       <h2>🔗 Find me online</h2>
       <ul class="social-links list-inline">
-        <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
-        <li><a href="mailto:your@email.com">Email</a></li>
+        <li>
+          <a href="https://www.instagram.com/rs_ryunosuke/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Ynosky" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:b00819910@essec.edu">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+33766627751">
+            <i class="fas fa-phone"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
