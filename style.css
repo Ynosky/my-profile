@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* Font Awesome CDN for icons */
-/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> */
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #f0fbfc 0%, #b2ebf2 50%, #4dd0e1 100%);
@@ -13,8 +11,6 @@ body {
   line-height: 1.6;
   letter-spacing: 0.5px;
   font-weight: 400;
-  /* Optional background image */
-  /* background-image: url(images/background.jpg); */
 }
 
 .container {
@@ -82,7 +78,6 @@ p {
   text-align: left;
 }
 
-/* Responsive container widths */
 @media (max-width: 960px) {
   .container {
     width: 700px;
